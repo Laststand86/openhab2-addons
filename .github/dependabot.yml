@@ -1,0 +1,62 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.netty:netty-handler
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-resolver
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-codec-mqtt
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-codec
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-transport
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-buffer
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: io.netty:netty-common
+    versions:
+    - 4.1.58.Final
+    - 4.1.59.Final
+    - 4.1.60.Final
+    - 4.1.62.Final
+  - dependency-name: org.apache.cxf:cxf-core
+    versions:
+    - 3.4.2
+  - dependency-name: com.sun.xml.bind:jaxb-core
+    versions:
+    - 3.0.0
+  - dependency-name: com.google.api:api-common
+    versions:
+    - 1.10.1
+  - dependency-name: com.hubspot.jinjava:jinjava
+    versions:
+    - 2.5.6
